@@ -1,6 +1,7 @@
 AC_INIT(mhalInterfaces, 3.0)
 
-AM_INIT_AUTOMAKE(nostdinc)
+AM_INIT_AUTOMAKE([nostdinc subdir-objects])
+#AM_INIT_AUTOMAKE(nostdinc)
 AC_PROG_CC
 AC_PROG_CXX
 AC_PROG_INSTALL
